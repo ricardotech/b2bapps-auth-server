@@ -12,6 +12,7 @@ const UserSchema = new Schema(
       required: true,
     },
     email: String,
+    phone_number: Number,
     document_type: {
       type: String,
       enum: ['cnpj', 'cpf'],
